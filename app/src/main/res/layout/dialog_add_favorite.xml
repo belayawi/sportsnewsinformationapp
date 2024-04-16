@@ -1,0 +1,19 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <EditText
+        android:id="@+id/favoriteSport"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your favorite sport" />
+
+    <EditText
+        android:id="@+id/fanClub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your fan club" />
+
+</LinearLayout>

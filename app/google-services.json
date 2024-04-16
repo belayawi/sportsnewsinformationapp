@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "83429111192",
+    "project_id": "sport-news-information-app",
+    "storage_bucket": "sport-news-information-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:83429111192:android:d397c3a52095f7805027ed",
+        "android_client_info": {
+          "package_name": "com.amenawi.sportnewsinformationapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFs7ApXoKQhe15QdJhN55G9iHcuK5XZRM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

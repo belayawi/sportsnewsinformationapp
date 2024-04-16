@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">""</string>
+    <string name="sports">Sports</string>
+    <string name="news">News</string>
+    <string name="athletes">Athletes</string>
+    <string name="events">Events</string>
+    <string name="historical">Archives</string>
+    <string name="about_me">About Me</string>
+    <string name="bottom_news">News</string>
+    <string name="bottom_events">Events</string>
+    <string name="bottom_historical">H.Archives</string>
+    <string name="hello_belay">Hello Belay</string>
+    <string name="sport_type">Sport Type</string>
+    <string name="sport_name">Sport Name</string>
+    <string name="instruction">Instruction</string>
+    <string name="interesting_facts">Interesting Facts</string>
+    <string name="medals">Medals</string>
+    <string name="best_performance">Best Performance</string>
+    <string name="country">Country</string>
+    <string name="sport">Sport</string>
+    <string name="name">Name</string>
+    <string name="history_name">History Name</string>
+    <string name="date_yyyy_mm_dd">Date (YYYY-MM-DD)</string>
+    <string name="description">Description</string>
+    <string name="name_belay_m_buta"> Belay Mulatu Buta</string>
+    <string name="favorite_sport_foot_ball">Solution Architect</string>
+    <string name="event_name">Event Name</string>
+    <string name="event_description">Event Description</string>
+    <string name="event_date">Event Date</string>
+    <string name="aboutMe">About Me</string>
+    <string-array name="sport_types">
+        <item>Measure</item>
+        <item>Precision</item>
+        <item>Spectacle</item>
+        <item>Combat</item>
+        <item>Play</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="favorite_sport_basket_ball">Favorite Sport: Basket Ball</string>
+    <string name="fan_club_arsenal">Fan Club: Arsenal</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+</resources>

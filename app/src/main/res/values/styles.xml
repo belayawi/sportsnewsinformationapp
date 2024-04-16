@@ -1,0 +1,47 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="MyTabTextStyle" parent="Widget.Design.TabLayout">
+        <item name="tabTextAppearance">@style/MyTabTextAppearance</item>
+    </style>
+    <style name="RoundedImage">
+        <item name="cornerSize">50%</item>
+    </style>
+    <style name="MyTabTextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">14sp</item> <!-- Adjust size as needed -->
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="CustomTab" parent="Widget.Design.TabLayout">
+        <item name="tabTextAppearance">@style/MyCustomTabTextAppearance</item>
+    </style>
+
+    <style name="MyCustomTabTextAppearance" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">@font/automnfont</item>
+    </style>
+    <style name="MyCustomBottomNavTextAppearance">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">@font/goldenfont</item>
+
+
+    </style>
+
+    <style name="FancyButtonStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:fontFamily">@font/artifica</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@drawable/fancy_button_background</item>
+        <item name="android:tint">@drawable/fancy_button_background</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+</resources>

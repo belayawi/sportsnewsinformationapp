@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="primary">#003366</color>
+    <color name="shadow">#C9C7C7</color>
+    <color name="gold">#FFD700</color>
+    <color name="secondary">#FFC107</color>
+    <color name="colorBottomNavActive">#FF5722</color> <!-- Orange for active state -->
+    <color name="colorBottomNavInactive">#757575</color> <!-- Grey for inactive state -->
+    <color name="tab_active">#D32F2F</color>  <!-- Red for active tabs -->
+    <color name="tab_inactive">#757575</color>
+</resources>

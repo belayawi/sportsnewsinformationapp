@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_news"
+        android:icon="@drawable/sport_news"
+        android:title="@string/bottom_news" />
+    <item
+        android:id="@+id/action_events"
+        android:icon="@drawable/events"
+        android:title="@string/bottom_events" />
+    <item
+        android:id="@+id/action_historical"
+        android:icon="@drawable/history"
+        android:title="@string/bottom_historical" />
+</menu>
