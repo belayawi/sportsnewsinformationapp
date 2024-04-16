@@ -29,7 +29,13 @@ class NewsAdapter(private val newsItems: List<NewsItem>) : RecyclerView.Adapter<
         val item = newsItems[position]
         holder.titleTextView.text = item.title
         holder.descriptionTextView.text = item.description
-        if (item.imageUrl.startsWith("drawable/")) {
+        if (item.imageUrl.startsWith("http")) {
+
+            Glide.with(holder.itemView.context)
+                .load(item.imageUrl)
+                .into(holder.imageView)
+        }
+        else if (item.imageUrl.startsWith("drawable/")) {
             val imageName = item.imageUrl.split("/").last()
             val imageResId = holder.imageView.context.resources.getIdentifier(imageName, "drawable", holder.imageView.context.packageName)
             Glide.with(holder.imageView.context)
@@ -41,6 +47,7 @@ class NewsAdapter(private val newsItems: List<NewsItem>) : RecyclerView.Adapter<
                 .load(item.imageUrl)
                 .into(holder.imageView)
         }
+
     }
 
     override fun getItemCount() = newsItems.size
